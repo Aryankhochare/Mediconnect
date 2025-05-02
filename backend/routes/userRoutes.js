@@ -32,10 +32,7 @@ router.post("/apply-doctor", authMiddleware, applyDoctorController);
 
 //Notifiaction  Doctor || POST
 router.post(
-  "/get-all-notification",
-  authMiddleware,
-  getAllNotificationController
-);
+  "/get-all-notification",authMiddleware,getAllNotificationController);
 //Notifiaction  Doctor || POST
 router.post(
   "/delete-all-notification",
