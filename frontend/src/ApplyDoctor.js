@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "./../components/Layout";
+import Layout from "./Layout";
 import { Col, Form, Input, Row, TimePicker, message } from "antd";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { showLoading, hideLoading } from "../redux/features/alertSlice";
+import { showLoading, hideLoading } from "./alertSlice";
 import axios from "axios";
 import moment from "moment";
 const ApplyDoctor = () => {

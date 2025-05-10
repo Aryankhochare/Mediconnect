@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/LayoutStyles.css";
-import { adminMenu, userMenu } from "./../Data/data";
+import "./LayoutStyles.css";
+import { adminMenu, userMenu } from "./data";
 
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";

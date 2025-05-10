@@ -1,19 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import HomePage from "./HomePage";
+import Login from "./Login";
+import Register from "./Register";
 import { useSelector } from "react-redux";
-import Spinner from "./components/Spinner";
-import ProtectedRoute from "./components/ProtectedRoute";
-import PublicRoute from "./components/PublicRoute";
-import ApplyDoctor from "./pages/ApplyDoctor";
-import NotificationPage from "./pages/NotificationPage";
-import Users from "./pages/admin/Users";
-import Doctors from "./pages/admin/Doctors";
-import Profile from "./pages/doctor/Profile";
-import BookingPage from "./pages/BookingPage";
-import Appointments from "./pages/Appointments";
-import DoctorAppointments from "./pages/doctor/DoctorAppointments";
+import Spinner from "./Spinner";
+import ProtectedRoute from "./ProtectedRoute";
+import PublicRoute from "./PublicRoute";
+import ApplyDoctor from "./ApplyDoctor";
+import NotificationPage from "./NotificationPage";
+import Users from "./Users";
+import Doctors from "./Doctors";
+import Profile from "./Profile";
+import BookingPage from "./BookingPage";
+import Appointments from "./Appointments";
+import DoctorAppointments from "./DoctorAppointments";
 function App() {
   const { loading } = useSelector((state) => state.alerts);
   return (
